@@ -1,0 +1,35 @@
+- name: Languages
+  items: GoLang, Python, Ruby, Bash, CoffeeScript, Javascript, C/C++, Perl, Scala
+  
+- name: Orchestration
+  items: Kubernetes, Ansible, Capistrano, Puppet, Chef
+  
+- name: Monitoring
+  items: Prometheus, CloudWatch, Senus
+  
+- name: Continuous Integration
+  items: Bitbucket Pipelines, Travis CI, Jenkins, Concourse
+  
+- name: Authorization Protocols
+  items: OpenID Connect (JWT), SAML (IdP, SP), OAuth, OpenID
+
+- name: Databases
+  items: PostgreSQL, SQLite, MySQL, ElasticSearch, Redis
+
+- name: OS
+  items: Mac OS X, Linux (Alpine, RHEL, CentOS, Ubuntu)
+
+- name: Version Control
+  items: Git, SVN, CVS, VSS, RCS
+
+- name: Services / APIs
+  items: Github, HipChat, AWS, Campfire, Facebook, Twitter, IRC
+
+- name: Life Cycle
+  items: Scrum, BDD/TDD, Pair Programming
+
+- name: Web Frameworks
+  items: Jekyll, Hugo, Ruby on Rails, Sinatra, ExtJS, jQuery
+
+- name: Virtualization
+  items: Docker, Linux Containers, Vagrant, VirtualBox, VMware (EAX, Desktop), AWS EC2
