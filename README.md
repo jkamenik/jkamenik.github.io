@@ -1,18 +1,27 @@
-# Resume
+# [jkamenik.github.io](https://jkamenik.github.io)
 
 This is the source for my resume.
 
-The easiest way to monitor it is to run the following.
+The branch `master` is the statically rendered site.  `draft` is the dymanic Jekyll site.
 
-``` bash
-$ jekyll serve -w --config _config.yml,_config-dev.yml
+```bash
+git clone --recurse-submodules git@github.com:jkamenik/jkamenik.github.io.git
+cd jkamenik.github.io
+git checkout draft
+git submodule update --init
+./runme
 ```
 
-The `_config-dev.yml` file contains development only overrides that
-are ignored by GitHub.  Mainly this is used to make the pathing work
-locally.
+In the `draft` branch the `_site` directory is the `master` branch.  So after adjusting the site, you can simply commit there.
 
-## Layout
+```bash
+cd _site
+git add ...
+git commit ...
+git push
+```
+
+## Site Layout
 
 As a resume the entire site is meant to compile into a single
 document, but for easy of maintenance it is split into multiple files.
