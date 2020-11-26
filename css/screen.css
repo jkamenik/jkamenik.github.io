@@ -115,6 +115,11 @@ td.first {
   font-size: 1.1em;
 }
 
+#skills .note {
+  font-size: 0.9em;
+  color: #B1B1B1;
+}
+
 #skills table {
   width: 100%;
 }

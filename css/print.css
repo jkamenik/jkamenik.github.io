@@ -1,6 +1,6 @@
 body {
   margin: 10px;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #nav, #footer, #skills {
@@ -16,22 +16,33 @@ body {
   /* height: 120px; */
   color: black;
   background: none;
-  border-bottom: 2px solid black;
+  text-align: center;
 }
 #header #name {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
+  border-bottom: 2px solid black;
 }
-#header #address, #header #title {
+#header #title {
   display: none;
+}
+#header #address {
+  margin: 1em;
+}
+#header #address a {
+  margin: 1em;
 }
 #header #address-print {
   display: inherit;
   margin-top: 5px;
 }
+#header a {
+  color: black;
+}
 
 h1 {
   font-size: 1.5em;
+  margin-top: 1.5em;
 }
 h2.on-page-header {
   margin-top: 50px;
