@@ -21,6 +21,10 @@ git commit ...
 git push
 ```
 
+## Build without serve
+
+If you just want to statically render the site the use `./runme build`.
+
 ## Site Layout
 
 As a resume the entire site is meant to compile into a single

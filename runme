@@ -2,4 +2,8 @@
 
 APP_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/." && pwd )"
 
-docker run -ti -v "${APP_DIR}:/site" -p 4000:4000 jkamenik/jekyll serve -H 0.0.0.0 -w --config _config.yml,_config-dev.yml
+if [[ "$1" == "build" ]]; then
+  docker run -ti -v "${APP_DIR}:/site" -p 4000:4000 jkamenik/jekyll build --config _config.yml
+else
+  docker run -ti -v "${APP_DIR}:/site" -p 4000:4000 jkamenik/jekyll serve -H 0.0.0.0 -w --config _config.yml,_config-dev.yml
+fi
