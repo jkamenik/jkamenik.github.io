@@ -1,0 +1,65 @@
+- dates: August 2020 - Current
+  title: Director of DevSecOps, FortiSASE
+  company: Fortinet Inc.
+  bullets:
+    - Patent pending for OAA platform developed at Opaq
+    - Modification of the OAA platform to replace Palo Alto Networks Firewalls w/ Fortinet Firewalls
+
+- dates: March 2018 - August 2020
+  title: Director of DevSecOps
+  company: Opaq
+  bullets:
+    - Designed Secure & Multi-tenant Orchestration & Automation (OAA) platform for building and configuration customer infrastructure based on customer inputs in a multi-tenant portal.
+    - Migrated bulk of service offerings from AWS to GCE and realized a cost saving of ~40% (as compared to AWS spot instance).
+    - Designed standard deployment process for most Services & fully automated IaC (GitOps) Continuous Deployment Pipeline.
+    - Designed Log receiving service capable of receiving ~20Gb per day of device logs (0 data loss) that horizontally scales geographically.  K8s autoscaling cluster, w/ syslog load balancer, Geo-DNS, & RFC-5424 (syslog w/ structured data) ETL cluster.
+
+- dates: February 2016 - March 2018
+  title: Principal DevSecOps Engineer
+  company: FourV Systems
+  bullets:
+    - Redesigned FourV’s flagship log analytics platform to be fully multi-tentant saving the company $196K / month.
+    - Defined and built monitor to support SLO/SLAs.  Based on Sensu, Prometheus & Graphana.
+    - Designed and built Cloud SSO service based on OIDC for all cloud services.
+    - Designed and built Log aggregation & forwarding appliance capable of 50K messages a second w/ 0 dataloss.
+    - Designed a SSDLC process w/ integrated versioning & branch schema, Unit & functional testing hooks, & Continuous Delivery workflow.  This process worked equally well for Cloud based services and on-prem appliances.
+
+- dates: April 2014 - February 2016
+  title: Head of Release Engineering
+  company: Lookingglass Cyber Solutions
+  bullets:
+    - Designed and implemented a 3 Tier support process taking the avg resolution time from weeks to <1 day.
+    - Designed and implemented a release pipeline performing multi-stage build, and full functional test in <2 hours.  Previous manual process was multi-day.
+    - Created a GoLang CLI command suite to translate Nfcapd files into bidirectional network telemetry format that could be ingested and compared against global threat intel data.
+    - Optimized Global Threat Intel storage and search, taking multiple 10+ minute queries to <30s without loss in fidelity or increase in HW usage.
+
+- dates: October 2011 - April 2014
+  title: Head of Engineering
+  company: Waterfall Software, Inc.
+  bullets:
+    - Architected and implemented high availability Micro-services based SaaS platform using AWS and Heroku services and SAML for SSO. Full continuous deployment achieving multiple weekly deployments with <1m downtime.
+    - Designed and built custom full PCI compliant E-Commerce engine w/ inventory management and promotions engine, CMS, Forum, training module w/ tests.
+    - Integrated 3rd party Video editing and steaming software to drive TVs at physical locations. Designed the manufacturing process to drop-ship PocketTV devices configured with connection and auth details so location owners just needed to plugin the devices.
+
+- dates: February 2011 - October 2011
+  title: Senior Software Engineer
+  company: Boeing Contractor
+  bullets:
+    - Instituted Agile TDD/BDD development methodology including Scrum, Pair programming, Code Reviews, and Continuous Integration. Reduced release cycle from quarterly to two weeks, enabling more focused execution and planning. Ensured completion of all committed-to work.
+    - Designed and built a Ruby on Rails based dashboard to visual top-secret data from security community, utilizing NoSQL to store data. Used Ruby to develop data-gathering software to fill dashboard with non-top-secret data.
+
+- dates: December 2007 - February 2011
+  title: Senior Software Engineer
+  company: Infoblox, Inc. (formerly Netcordia Inc.)
+  bullets:
+    - Created Web Management Interface using ExtJS / Ruby on Rails for the NetMRI product. Including a JS graphing library to visualize real-time ethernet metrics. And BIRT reports targeting ISO 27002 and PCI compliance. Full unit test coverage using Rspec and Jasmine with CruiseControl.rb for continuous integration.
+    - Wrote data-consolidation engine to consolidate up to 50 NetMRIs into a single managed topology for geo-located policy enforcement
+    - Added device support for Riverbed Network Monitors, Cisco gear, and Juniper Routers to NetMRI via SNMP, terminal emulation via SSH, and screen scraping.
+
+- dates: January 2001 - December 2007
+  title: Senior Software Engineer
+  company: Patton Electronic Co.
+  bullets:
+    - Productized IP DSLAM devices by creating a nextgen custom embedded Linux OS, 
+    - Created an embedded version of Python (<30Mb) used as a CORBA management plane and Web based UI to scale management of hundreds of edge devices.
+    - Developed a Java GUI to visualize and setup an H110 monoplex backplane for Patton’s “Blade” line of products.
