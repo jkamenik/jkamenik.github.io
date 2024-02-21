@@ -1,3 +1,4 @@
-- Strong believer in IaC, GitOps, automating toil and other techniques to make releases common, routine, and boring.
-- Designer of processes where secure-thinking is baked-in.  Prevent afterthought security solely for checks-the-box compliance.
-- Believer in targeting correct SLOs w/ Blameless culture.  All things measurable should be and processes adapted accordingly.  Overachieving an SLO; be more aggressive - Underachieving; more conservative.
+- name: Linkedin Profile
+  url: https://www.linkedin.com/in/johnkamenik/
+- name: GitHub Profile
+  url: http://github.com/jkamenik

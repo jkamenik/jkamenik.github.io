@@ -1,6 +1,8 @@
-<h1><a name="summary">Summary</a></h1>
+<h1><a name="summary">You Found Me!</a></h1>
+
+This site is no longer actively maintained.  Please check me out at one of the following:
 <ul>
     {% for item in site.data.summary %}
-    <li>{{ item }}</li>
+    <li><a href="{{ item.url }}" target="_blank">{{ item.name }}</a></li>
     {% endfor %}
 </ul>

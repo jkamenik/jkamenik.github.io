@@ -6,22 +6,19 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="{{site.url}}/css/syntax.css">
-
         <!-- Custom CSS -->
         <link href="{{site.url}}/css/base.css" media="all" rel="stylesheet" type="text/css" />
         <link href="{{site.url}}/css/screen.css" media="screen" rel="stylesheet" type="text/css" />
         <link href="{{site.url}}/css/print.css" media='print' rel='stylesheet' type='text/css' />
-        
+
         <!-- uncomment the below and comment out screen.css to test printing quickly -->
         <!-- <link href="{{site.url}}/css/print.css" media='screen' rel='stylesheet' type='text/css' /> -->
-        
+
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
-        
+
         {% include analytics.html %}
     </head>
 
@@ -29,12 +26,12 @@
         <div style="display:none">
             {{site}}
         </div>
-        
+
         <div id="page">
             <div id="header">
                 {% include header.html %}
             </div>
-            
+
             <div id="content">
                 {{ content }}
             </div>
